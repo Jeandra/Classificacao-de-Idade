@@ -11,7 +11,7 @@ int main()
 	printf("Digite a sua idade: ");
 	scanf("%i", &age);
 	
-	if( age <= 0)
+	if( age < 0)
 	{ 
 	    printf("\n*****ERRO***** ");
 	}
